@@ -1,0 +1,43 @@
+
+
+.header-row {
+    display: flex;
+    justify-content:space-evenly;
+    align-items:end;
+    background-color: black;
+}
+.header-row img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+
+    background-color: black;
+}
+
+.container {
+    width: 100%; /* Ajusta el ancho del contenedor al 100% del contenedor principal */
+}
+
+.header-row {
+    display: flex; /* Usar flexbox para alinear los elementos horizontalmente */
+    justify-content: center; /* Centrar los elementos dentro del contenedor */
+    gap: 10px; /* Espacio entre las imágenes, ajusta según tus necesidades */
+}
+
+.img-header1 img {
+    max-width: 50%; /* Permite que la imagen escale dentro de su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina el espacio debajo de la imagen */
+}
+.img-header2 img {
+    max-width: 50%; /* Permite que la imagen escale dentro de su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina el espacio debajo de la imagen */
+}
+.img-header3 img {
+    max-width: 30%; /* Permite que la imagen escale dentro de su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina el espacio debajo de la imagen */
+}

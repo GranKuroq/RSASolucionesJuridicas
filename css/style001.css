@@ -1,0 +1,49 @@
+body {
+    background-color: #000000;
+    color: #FFD700;
+}
+.navbar {
+    background-color: #000000;
+    box-shadow: 0 4px 2px -2px gray;
+}
+.navbar-brand, .navbar-nav .nav-link {
+    color: #FFD700;
+    text-shadow: 1px 1px 2px gray;
+    font-family: 'Garamond', serif; /* Tipografía elegante */
+}
+.navbar-nav .nav-link {
+    font-size: 1.2em;
+}
+.btn-custom {
+    background-color: #333333;
+    border: 2px solid #FFD700;
+    color: #FFD700;
+    text-shadow: 1px 1px 2px lightgray;
+    box-shadow: 2px 2px 5px gray;
+}
+.btn-custom:hover {
+    background-color: #444444;
+}
+.presentation-section {
+    background-image: url('background-image.jpg'); /* Imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0; /* Espacio generoso en la sección */
+    color: #000000;
+    font-family: 'Brush Script MT', cursive; /* Caligrafía Handwriting */
+}
+.presentation-section .row {
+    margin-bottom: 30px; /* Buen margen entre filas */
+}
+.presentation-section h1, .presentation-section h2 {
+    letter-spacing: 10px; /* Buen espaciado entre letras */
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #FFD700; /* Sombra sutil en dorado */
+}
+.presentation-section h1 {
+    font-size: 4em; /* Letras bien grandes */
+}
+.presentation-section h2 {
+    font-size: 3em; /* Letras un poco más pequeñas */
+}
